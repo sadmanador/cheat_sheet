@@ -32,6 +32,11 @@ git log         to see the commits
 git reset HASHnum       to go back to a specific commit and unstag any change
 git reset --hard HASHnum        not only unstag the change also erase the change
 
+
+show the changes
+git diff
+
+
 copying others repo
 fork
 pull request        to at the my file to the original repo where I copied the repo from.
@@ -40,3 +45,36 @@ pull request        to at the my file to the original repo where I copied the re
 git pull
 git fetch
 git fetch --all
+
+
+make a file using git
+echo "# repoName" fileName.format
+
+to make a new branch
+git checkout -b gitBranchName
+
+switch between branches
+git checkout switchBranchName
+to push in a different branch
+git push --set-upstream origin branchName
+or
+git push -u origin branchName
+
+before merging show the changes
+git diff branchName
+then merge
+git merge main
+
+pulling for branch
+
+
+
+once the branch is merge with the main branch delete the branch
+git branch -d branchName
+
+
+when files are modified add and commit
+git commit -am "xyz"
+
+solving merge conflicts
+delete the line from vs code and newly commit
