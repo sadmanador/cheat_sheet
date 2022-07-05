@@ -11,7 +11,7 @@ git add name.file       only stage specific file.
 to commit git
 git commit -m "commit title"
 git commit -m "commit title" -m "commit description"
-git commit -am "commit title"       only works with modified files and doesn't need git staging.
+git commit -am "commit title"       to commit with modified file only, this way unstaged files will be  excluded from commit and push.
 git log     to see all commits
 
 see the file modification
